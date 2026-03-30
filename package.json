@@ -1,0 +1,34 @@
+{
+  "name": "seo-preflight",
+  "version": "0.1.0",
+  "description": "Validate SEO-critical page fields before publish.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "seo",
+    "preflight",
+    "validation",
+    "metadata",
+    "publishing",
+    "utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandonhimpfen/seo-preflight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brandonhimpfen/seo-preflight/issues"
+  },
+  "homepage": "https://github.com/brandonhimpfen/seo-preflight#readme",
+  "author": "Brandon Himpfen",
+  "license": "MIT"
+}
